@@ -1,4 +1,4 @@
-package com.ds4u.controller;
+package com.jwt.controller;
 
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.RequestMapping;
