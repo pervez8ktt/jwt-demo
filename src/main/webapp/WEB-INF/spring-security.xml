@@ -20,7 +20,7 @@
     
     
     
-    <beans:bean id="jwtAuthenticationFilter" class="com.ds4u.security.JwtAuthenticationFilter"> 
+    <beans:bean id="jwtAuthenticationFilter" class="com.jwt.security.JwtAuthenticationFilter"> 
         <beans:property name="authenticationManager" ref="authenticationManager" />
         <beans:property name="authenticationSuccessHandler" ref="jwtAuthenticationSuccessHandler" />  
     </beans:bean>
@@ -29,8 +29,8 @@
         <authentication-provider ref="jwtAuthenticationProvider" />  
     </authentication-manager>
     
-    <beans:bean id="restAuthenticationEntryPoint" class="com.ds4u.security.RestAuthenticationEntryPoint"></beans:bean>
-    <beans:bean id="jwtAuthenticationSuccessHandler" class="com.ds4u.security.JwtAuthenticationSuccessHandler"></beans:bean>
-    <beans:bean id="jwtAuthenticationProvider" class="com.ds4u.security.JwtAuthenticationProvider"></beans:bean>
+    <beans:bean id="restAuthenticationEntryPoint" class="com.jwt.security.RestAuthenticationEntryPoint"></beans:bean>
+    <beans:bean id="jwtAuthenticationSuccessHandler" class="com.jwt.security.JwtAuthenticationSuccessHandler"></beans:bean>
+    <beans:bean id="jwtAuthenticationProvider" class="com.jwt.security.JwtAuthenticationProvider"></beans:bean>
 	 
 </beans:beans>

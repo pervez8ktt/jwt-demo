@@ -1,4 +1,4 @@
-package com.ds4u.model;
+package com.jwt.model;
 
 public class User {
 	 String username, role;

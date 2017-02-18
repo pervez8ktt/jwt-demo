@@ -1,4 +1,4 @@
-package com.ds4u.security;
+package com.jwt.security;
 
 import java.io.IOException;
 

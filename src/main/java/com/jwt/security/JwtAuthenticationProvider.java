@@ -1,4 +1,4 @@
-package com.ds4u.security;
+package com.jwt.security;
 
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider;
